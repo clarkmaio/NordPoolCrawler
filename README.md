@@ -12,3 +12,6 @@ curve = Curve(data = curve_range)
 print(curve[datetime(2022, 8, 1, 12)])
 curve.plot_curve(datetime(2022, 8, 1, 12))
 ```
+
+</br></br>
+<img src = "https://raw.githubusercontent.com/clarkmaio/NordPoolCrawler/main/img/supplydemand_example.PNG" style="width:600px;">
