@@ -70,7 +70,7 @@ class CurveCrawler:
 
         # Work by hour
         n_columns = raw_curve.shape[1]
-        n_columns = min(48, n_columns) # TODO gestisci caso con 50 colonne (cambio ora)
+        n_columns = min(48, n_columns) # TODO deal with file with 50 columns (time change)
         for i in range(0,n_columns,2):
             hour_curve = raw_curve.iloc[:, [i,i+1]]
             valuedate_str = hour_curve.columns[1]
